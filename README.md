@@ -33,8 +33,10 @@ Cinco preguntas de análisis respondidas con tablas agregadas (promedio por áre
 Cuatro visualizaciones (histograma, barras y pastel).
 Conclusiones finales.
 
-Contenido
+Contenido:
+
 ├── data/
+
 │   └── StudentsPerformance.csv     # Dataset original
 
 ├── analisis.ipynb              # Notebook con todo el análisis
