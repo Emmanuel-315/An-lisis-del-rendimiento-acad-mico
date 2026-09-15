@@ -35,15 +35,9 @@ Conclusiones finales.
 
 Contenido
 ├── data/
-
 │   └── StudentsPerformance.csv     # Dataset original
-
 ├── analisis.ipynb              # Notebook con todo el análisis
-
 ├── images/                         # Gráficas generadas por el notebook
-
 ├── requirements.txt                # Dependencias del proyecto
-
 ├── .gitignore
-
 └── LÉAME.md
