@@ -32,13 +32,6 @@ Creación de la variable average_score (promedio de Matemáticas, Lectura y Escr
 Clasificación del rendimiento en Bajo / Medio / Alto según rangos fijos sobre average_score (< 60, 60-79, ≥ 80).
 Cinco preguntas de análisis: área con mejor promedio, efecto del curso de preparación, relación con el nivel educativo de los padres, porcentaje de estudiantes por nivel de rendimiento, y comparación de promedios por grupo étnico.
 Cuatro visualizaciones: histograma de average_score, promedio por curso de preparación, promedio por nivel educativo de los padres, y proporción de estudiantes por nivel de rendimiento.
-Resultados y conclusiones
-Lectura es el área con el promedio más alto de las tres; Matemáticas es consistentemente la más baja.
-Los estudiantes que completaron el curso de preparación obtienen en promedio mejores resultados que quienes no lo tomaron.
-A mayor nivel educativo de los padres, mayor tiende a ser el promedio del estudiante.
-La mayoría de los estudiantes (poco más de la mitad) se ubica en el nivel de rendimiento Medio; solo una minoría alcanza el nivel Alto (promedio ≥ 80).
-Existen diferencias de desempeño entre los distintos grupos étnicos, lo que podría reflejar diferencias socioeconómicas o de acceso a recursos educativos que valdría la pena investigar más a fondo (por ejemplo, cruzando con el tipo de almuerzo como proxy de nivel socioeconómico).
-
 
 Contenido:
 
@@ -74,13 +67,20 @@ Activarlo e instalar dependencias:
 source .venv/bin/activate
 
 pip install -r requirements.txt
-Ejecución
 
+# Ejecución
 Abrir y ejecutar el notebook desde VS Code o Jupyter:
 Abrir notebooks/analisis.ipynb, seleccionar el kernel del entorno .venv y ejecutar todas las celdas (Run All).
 O ejecutarlo desde la terminal sin abrir la interfaz de Jupyter:
 jupyter nbconvert --to notebook --execute --inplace notebooks/analisis.ipynb
 
 Las gráficas generadas se guardan automáticamente en la carpeta images/.
+
+# Resultados y conclusiones
+Lectura es el área con el promedio más alto de las tres; Matemáticas es consistentemente la más baja.
+Los estudiantes que completaron el curso de preparación obtienen en promedio mejores resultados que quienes no lo tomaron.
+A mayor nivel educativo de los padres, mayor tiende a ser el promedio del estudiante.
+La mayoría de los estudiantes (poco más de la mitad) se ubica en el nivel de rendimiento Medio; solo una minoría alcanza el nivel Alto (promedio ≥ 80).
+Existen diferencias de desempeño entre los distintos grupos étnicos, lo que podría reflejar diferencias socioeconómicas o de acceso a recursos educativos que valdría la pena investigar más a fondo (por ejemplo, cruzando con el tipo de almuerzo como proxy de nivel socioeconómico).
 
 En conjunto, los resultados sugieren que factores externos al desempeño individual —como la preparación previa y el contexto familiar— están relacionados con los resultados académicos, y podrían orientar programas de apoyo focalizados por parte de la institución.
