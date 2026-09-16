@@ -67,10 +67,10 @@ Crear el entorno virtual:
 python -m venv .venv
 
 Activarlo e instalar dependencias:
-## Windows
+ Windows
 .venv\Scripts\activate
 
-## macOS / Linux
+ macOS / Linux
 source .venv/bin/activate
 
 pip install -r requirements.txt
